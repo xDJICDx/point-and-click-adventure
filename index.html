@@ -1,0 +1,57 @@
+<html>
+<head>
+<link rel="stylesheet" href="CSS/style.css">
+<title>Point and click adventure</title>
+
+
+</head>
+
+<body>
+    <h1 id="mainTitle"></h1>
+    <div id="gameWindow">
+
+    <!-- dialogue bar -->
+    
+    <div id="dialogueBar" class="gameObject foreground">  
+        <div id="dialogueContent">
+            <div id="brownBar" class="gameObject foreground"></div>
+            
+            <img id="Hero" class="gameObject foreground" src="IMG/hero.png" alt="main character"> 
+            <div id="mainCharacterSpeech" class="foreground gameObject speechBubble"></div>
+
+            <div id="counterSpeech" class="foreground gameObject speechbubble">...</div>
+            <img id="counterCharacter" class="foreground gameObject" src="img/tree.png" alt="The other person">
+        </div>
+    </div>
+
+
+
+
+
+    
+    <!-- foreground -->
+    <div id="door1" class="gameObject foreground"></div>
+    <div id="door2" class="gameObject foreground"></div>
+    <div id="door3" class="gameObject foreground"></div>
+    <div id="tree"  class="gameObject foreground"></div>
+
+
+    
+
+
+    <!-- main character layer -->
+        <div id="mainCharacter" class="gameObject gameCharacter">
+            <img src="IMG/mainCharacter.png" alt="character">
+        </div>
+    	
+    <!-- background layer -->   
+    <div id="titleMap" class="gameObject background">
+        <img src="img/BackGround.jpg" alt="titleMap">
+    </div> 
+</div>
+
+
+<script src="js/Index.js"></script>
+</body>
+
+</html>
